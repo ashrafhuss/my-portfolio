@@ -4,6 +4,7 @@ function App() {
   return (
     <div>
       <h1>My Portfolio</h1>
+      <h1>Hello my Friends</h1>
     </div>
   );
 }
