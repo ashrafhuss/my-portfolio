@@ -6,6 +6,7 @@ function App() {
       <h1>My Portfolio</h1>
       <h1>Hello my Friends</h1>
       <h1>Hello my Git Hub pages</h1>
+      <h1 style={{color: "green"}}>Welcome</h1>
     </div>
   );
 }
