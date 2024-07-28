@@ -1,12 +1,10 @@
-import "./App.css";
+import "./Pages/style.css";
+import Header from "./Pages/Header";
 
 function App() {
   return (
-    <div>
-      <h1>My Portfolio</h1>
-      <h1>Hello my Friends</h1>
-      <h1>Hello my Git Hub pages</h1>
-      <h1 style={{color: "green"}}>Welcome</h1>
+    <div className="app_value">
+      <Header />
     </div>
   );
 }
