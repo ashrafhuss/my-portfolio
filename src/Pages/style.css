@@ -1,0 +1,32 @@
+* {
+  /* padding: 0px; */
+}
+.app_value {
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+  background-color: #ffffff;
+}
+.header_p {
+  width: 80%;
+  height: 60px;
+  align-items: center;
+  box-sizing: border-box;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  padding: 0px 20px;
+  justify-content: space-between;
+}
+.header_tab {
+  margin: 0px;
+  gap: 20px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+.header_tab li {
+  width: 6.25rem;
+  cursor: pointer;
+  text-align: center;
+}
