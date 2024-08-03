@@ -16,10 +16,11 @@ import {
 
 const Header = () => {
   const [hoveredImage, setHoveredImage] = useState(null);
-  const [clickedImage, setClickedImage] = useState(null);
+  const [clickedImage, setClickedImage] = useState(about);
 
   const handleMouseEnter = (image) => {
     setHoveredImage(image);
+    setClickedImage(null);
   };
 
   const handleMouseLeave = () => {
@@ -32,10 +33,10 @@ const Header = () => {
 
   return (
     <div className="header_p">
-      <div>
-        <img src={logo} alt="logo" />
+      <div className="logo_parent">
+        <img src={logo} alt="logo" className="logo_name" />
       </div>
-      <div>
+      <div className="header_parent">
         <ul className="header_tab">
           <li>
             <img
