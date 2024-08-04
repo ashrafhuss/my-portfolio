@@ -13,7 +13,7 @@ import phone from "./phone.svg";
 import address from "./address.svg";
 import email from "./email.svg";
 import calendar from "./calendar.svg";
-import UI from "./ui_ux.svg";
+import ui from "./ui_ux.svg";
 import web from "./web.svg";
 import apps from "./app.svg";
 import photograhpy from "./photgraplhy.svg";
@@ -36,7 +36,7 @@ export {
   address,
   email,
   calendar,
-  UI,
+  ui,
   web,
   apps,
   photograhpy,

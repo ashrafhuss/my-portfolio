@@ -33,7 +33,7 @@ const Header = () => {
 
   return (
     <div className="header_p">
-      <div className="logo_parent">
+      {/* <div className="logo_parent">
         <img src={logo} alt="logo" className="logo_name" />
       </div>
       <div className="header_parent">
@@ -109,7 +109,8 @@ const Header = () => {
             />
           </li>
         </ul>
-      </div>
+      </div> */}
+      <h1>Header section</h1>
     </div>
   );
 };
