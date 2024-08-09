@@ -64,7 +64,6 @@
   padding: 4rem 2rem;
   left: 395px;
   gap: 0px;
-  opacity: 0px;
 }
 .about_red {
   width: 200px;
@@ -89,7 +88,6 @@
   top: 372px;
   left: 755px;
   gap: 0px;
-  opacity: 0px;
   font-size: 26px;
   font-weight: 500;
   line-height: 39px;
@@ -127,7 +125,6 @@
   display: flex;
   justify-content: center;
   border-radius: 8px;
-  opacity: 0px;
   background: #ffffff;
   box-shadow: 0px 4px 6px 0px #00000014;
 }
