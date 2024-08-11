@@ -19,6 +19,9 @@ import apps from "./app.svg";
 import photograhpy from "./photgraplhy.svg";
 import imageOpt from "./imgeOptimization.svg";
 import webDev from "./web_devsvg.svg";
+import resumeUrl from "./ashraf_resume.pdf";
+import ashraf from "./Ashraf_Hussain1.png";
+import hussain from "./Ashraf_Hussain2.png";
 
 export {
   logo,
@@ -42,4 +45,7 @@ export {
   photograhpy,
   imageOpt,
   webDev,
+  resumeUrl,
+  ashraf,
+  hussain,
 };

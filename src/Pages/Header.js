@@ -27,9 +27,21 @@ const Header = () => {
     setHoveredImage(null);
   };
 
-  const handleClick = (image) => {
-    setClickedImage(image);
+  const handleClick = (id) => {
+    setClickedImage(id);
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({behavior: "smooth"});
+    }
   };
+
+  const images = [
+    {id: "about", default: about, hover: aboutHovering},
+    {id: "resume", default: resume, hover: resumeHovering},
+    {id: "work", default: work, hover: workHovering},
+    {id: "blog", default: blog, hover: blogHovering},
+    {id: "contact", default: contact, hover: contactHovering},
+  ];
 
   return (
     <div className="header_p">
@@ -38,76 +50,23 @@ const Header = () => {
       </div>
       <div className="header_parent">
         <ul className="header_tab">
-          <li>
-            <img
-              src={
-                hoveredImage === about || clickedImage === about
-                  ? aboutHovering
-                  : about
-              }
-              alt="about"
-              onMouseEnter={() => handleMouseEnter(about)}
-              onMouseLeave={handleMouseLeave}
-              onClick={() => handleClick(about)}
-              className="svg-logo"
-            />
-          </li>
-          <li>
-            <img
-              src={
-                hoveredImage === resume || clickedImage === resume
-                  ? resumeHovering
-                  : resume
-              }
-              alt="resume"
-              onMouseEnter={() => handleMouseEnter(resume)}
-              onMouseLeave={handleMouseLeave}
-              onClick={() => handleClick(resume)}
-              className="svg-logo"
-            />
-          </li>
-          <li>
-            <img
-              src={
-                hoveredImage === work || clickedImage === work
-                  ? workHovering
-                  : work
-              }
-              alt="work"
-              onMouseEnter={() => handleMouseEnter(work)}
-              onMouseLeave={handleMouseLeave}
-              onClick={() => handleClick(work)}
-              className="svg-logo"
-            />
-          </li>
-          <li>
-            <img
-              src={
-                hoveredImage === blog || clickedImage === blog
-                  ? blogHovering
-                  : blog
-              }
-              alt="blog"
-              onMouseEnter={() => handleMouseEnter(blog)}
-              onMouseLeave={handleMouseLeave}
-              onClick={() => handleClick(blog)}
-              className="svg-logo"
-            />
-          </li>
-          <li>
-            <img
-              src={
-                hoveredImage === contact || clickedImage === contact
-                  ? contactHovering
-                  : contact
-              }
-              alt="contact"
-              onMouseEnter={() => handleMouseEnter(contact)}
-              onMouseLeave={handleMouseLeave}
-              onClick={() => handleClick(contact)}
-              className="svg-logo"
-            />
-          </li>
+          {images.map((image) => (
+            <li key={image.id}>
+              <img
+                src={
+                  hoveredImage === image.default ||
+                  clickedImage === image.default
+                    ? image.hover
+                    : image.default
+                }
+                alt={image.id}
+                onMouseEnter={() => handleMouseEnter(image.default)}
+                onMouseLeave={handleMouseLeave}
+                onClick={() => handleClick(image.id)}
+                className="svg-logo"
+              />
+            </li>
+          ))}
         </ul>
       </div>
     </div>
