@@ -1,8 +1,11 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.758d5bd7.css",
-    "main.js": "/my-portfolio/static/js/main.c4479cde.js",
+    "main.js": "/my-portfolio/static/js/main.c9deded4.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
+    "static/media/Ashraf_Hussain1.png": "/my-portfolio/static/media/Ashraf_Hussain1.49bc5db16f5c4827c090.png",
+    "static/media/Ashraf_Hussain2.png": "/my-portfolio/static/media/Ashraf_Hussain2.6a06ccf839ffaf2b1383.png",
+    "static/media/ashraf_resume.pdf": "/my-portfolio/static/media/ashraf_resume.e6f3c179b3f69bf2f282.pdf",
     "static/media/ashraf_logo.jpg": "/my-portfolio/static/media/ashraf_logo.62b0583dfede27387d0f.jpg",
     "static/media/web.svg": "/my-portfolio/static/media/web.b7ce008f06241f1d51b48260af8b73f4.svg",
     "static/media/contact_hovering.svg": "/my-portfolio/static/media/contact_hovering.9d8a9449429e64b3e1e0ce97124181e2.svg",
@@ -26,11 +29,11 @@
     "static/media/address.svg": "/my-portfolio/static/media/address.366ce025b4a0c2a10815d61cb3105310.svg",
     "index.html": "/my-portfolio/index.html",
     "main.758d5bd7.css.map": "/my-portfolio/static/css/main.758d5bd7.css.map",
-    "main.c4479cde.js.map": "/my-portfolio/static/js/main.c4479cde.js.map",
+    "main.c9deded4.js.map": "/my-portfolio/static/js/main.c9deded4.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.758d5bd7.css",
-    "static/js/main.c4479cde.js"
+    "static/js/main.c9deded4.js"
   ]
 }
