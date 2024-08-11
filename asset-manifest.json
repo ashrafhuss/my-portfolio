@@ -1,9 +1,9 @@
 {
   "files": {
     "main.css": "/my-portfolio/static/css/main.758d5bd7.css",
-    "main.js": "/my-portfolio/static/js/main.c9deded4.js",
+    "main.js": "/my-portfolio/static/js/main.e58244c6.js",
     "static/js/453.acca0757.chunk.js": "/my-portfolio/static/js/453.acca0757.chunk.js",
-    "static/media/Ashraf_Hussain1.png": "/my-portfolio/static/media/Ashraf_Hussain1.49bc5db16f5c4827c090.png",
+    "static/media/Ashraf_Hussain1.png": "/my-portfolio/static/media/Ashraf_Hussain1.5656a7680a88a9d17be9.png",
     "static/media/Ashraf_Hussain2.png": "/my-portfolio/static/media/Ashraf_Hussain2.6a06ccf839ffaf2b1383.png",
     "static/media/ashraf_resume.pdf": "/my-portfolio/static/media/ashraf_resume.e6f3c179b3f69bf2f282.pdf",
     "static/media/ashraf_logo.jpg": "/my-portfolio/static/media/ashraf_logo.62b0583dfede27387d0f.jpg",
@@ -29,11 +29,11 @@
     "static/media/address.svg": "/my-portfolio/static/media/address.366ce025b4a0c2a10815d61cb3105310.svg",
     "index.html": "/my-portfolio/index.html",
     "main.758d5bd7.css.map": "/my-portfolio/static/css/main.758d5bd7.css.map",
-    "main.c9deded4.js.map": "/my-portfolio/static/js/main.c9deded4.js.map",
+    "main.e58244c6.js.map": "/my-portfolio/static/js/main.e58244c6.js.map",
     "453.acca0757.chunk.js.map": "/my-portfolio/static/js/453.acca0757.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.758d5bd7.css",
-    "static/js/main.c9deded4.js"
+    "static/js/main.e58244c6.js"
   ]
 }
